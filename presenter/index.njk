@@ -2,13 +2,22 @@
 <html>
   <head>
     <style>
-      {% postcss %}
-        {% include "index.css" %}
-      {% endpostcss %}
+    {% postcss %}
+      {% include "index.css" %}
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <h1>Testa</h1>
+    <div id='poop-stain'></div>
+    <nav>
+      {{ '/assets/poop.svg' | svgContents("nav-poop") | safe }}
+    </nav>
+    <section id='intro'>
+      <div id='intro-text'>
+        <h1>vida de merda</h1>
+        <p>Porque, as vezes, a vida e uma merda.</p>
+      </div>
+    </section>
     {% for vdm in vdms %}
     <h2>{{ vdm }}</h2>
     {% endfor %}
