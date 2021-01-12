@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      {% postcss %}
+        {% include "index.css" %}
+      {% endpostcss %}
+    </style>
+  </head>
+  <body>
+    <h1>Testa</h1>
+    {% for vdm in vdms %}
+    <h2>{{ vdm }}</h2>
+    {% endfor %}
+  </body>
+</html>
