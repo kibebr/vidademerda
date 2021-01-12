@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon index.ts --exec ts-node"
+    "test": "jest --verbose",
+    "serve": "nodemon lib/index.ts --exec ts-node"
   },
   "author": "kibe",
   "license": "ISC",
@@ -15,11 +15,14 @@
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
+    "@types/jest": "^26.0.20",
     "@types/mongodb": "^3.6.3",
     "@types/node": "^14.14.20",
     "dotenv": "^8.2.0",
     "fp-ts": "^2.9.3",
+    "jest": "^26.6.3",
     "nodemon": "^2.0.7",
+    "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
   }
 }

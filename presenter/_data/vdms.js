@@ -1,4 +1,3 @@
-module.exports = () => {
-  console.log('fetching vida de merdas')
-  return ['vidademerda1', 'vidademerda2']
-}
+const fetch = require('node-fetch'
+
+module.exports = fetch('http://localhost:3002/merdas').then(res => res.json())

@@ -18,6 +18,7 @@
     "eleventy-plugin-svg-contents": "^0.7.0",
     "fastify": "^3.9.2",
     "fp-ts": "^2.9.3",
+    "node-fetch": "^2.6.1",
     "nunjucks": "^3.2.2",
     "postcss": "^8.2.4",
     "ts-node": "^9.1.1",

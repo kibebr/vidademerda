@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -47,8 +46,6 @@ nav {
 .nav-poop {
   width: 32px;
   height: 32px;;
-=======
   background-color: white;
   color: red;
->>>>>>> 7595816276ad89a13a59c8b88d9f97be1606bc61
 }
